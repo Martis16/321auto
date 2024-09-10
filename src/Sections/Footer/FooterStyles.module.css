@@ -54,13 +54,13 @@
 
 @media (min-width: 1000px) {
   .socials {
-    font-size: 25px;
+    font-size: 17px;
   }
   .socials a:hover {
     font-weight: 900;
   }
   .copyright {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 

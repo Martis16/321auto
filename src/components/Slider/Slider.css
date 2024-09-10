@@ -1,7 +1,7 @@
 /* Center the swiper and give it a responsive width */
 .swiper {
     width: 100%;
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto; /* Center the slider horizontally */
     position: relative; /* Ensure buttons are positioned relative to this container */
     border-radius: 10px;
@@ -21,7 +21,7 @@
   /* Ensure images are centered and maintain their aspect ratio */
   .swiper-slide img {
     width: 98%;
-    max-width: 1600px;
+    max-width: 1200px;
     max-height: 100%; /* Images won't be larger than the slide height */
     object-fit: contain; /* Ensures the image scales nicely without distortion */
     border-radius: 10px;

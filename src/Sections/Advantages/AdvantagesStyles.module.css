@@ -118,34 +118,7 @@
   cursor: pointer;
   transition: 0.3s;
 }
-@media (min-width: 2000px) {
-  .button button:hover {
-    background: var(--background-color);
-    color: var(--text-color);
-  }
-  .container{
-    height: 700px;
-    width: 65%;
-  }
-  .item:nth-child(3) {
-    left: 70%;
-    max-width: 300px;
-  }
-  .item:nth-child(4) {
-    left: calc(70% + 320px);
-    max-width: 300px;
-  }
-  .item:nth-child(5) {
-    left: calc(70% + 640px);
-    max-width: 300px;
-  }
-  .item:nth-child(n + 6) {
-    left: calc(70% + 960px);
-    opacity: 0;
-    max-width: 300px;
-  }
-  
-}
+
 
 @media (min-width: 1000px) {
   .button button:hover {

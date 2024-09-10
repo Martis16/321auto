@@ -141,19 +141,7 @@ button[type="submit"]:active {
 }
 
 @media (min-width: 2000px) {
-  .container {
-    h1 {
-      font-size: 55px;
-    }
-    p {
-      font-size: 35px;
-    }
-  }
-  .Intro {
-    h1 {
-      font-size: 65px;
-    }
-  }
+
   .info {
     width: 90%;
     flex-direction: row;

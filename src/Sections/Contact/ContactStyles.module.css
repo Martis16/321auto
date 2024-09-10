@@ -83,13 +83,9 @@ input[type="submit"]:active {
 @media (min-width: 1000px) {
   textarea,
   input:not([type="submit"]) {
-    width: 800px;
+    width: 600px;
   }
-  .container{
-    h1{
-      font-size: 40px;
-    }
-  }
+
 }
 
 @keyframes slide {
