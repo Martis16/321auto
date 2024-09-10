@@ -1,0 +1,52 @@
+:root {
+  --background-gradient: linear-gradient(to right, #ffffff, #7a92ff7e);
+  --sides-color: linear-gradient(to right, #ffffff, #8598f76a  );
+  --btn-color: #0987f2;
+  --btn-text-color: #fff;
+  --project-card-gb: #ffffff00;
+  --text-color: #222;
+  --form-text-color: #000000;
+  --footer-text-color: #888;
+  --info-background-color: #aadcff;
+}
+
+[data-theme="dark"] {
+  --background-gradient: linear-gradient(to right,#171717, #41484a );
+  --sides-color: linear-gradient(to right, #181616, #232323);
+  --btn-color: #fff;
+  --btn-text-color: #222;
+  --project-card-gb: #fff;
+  --text-color: #fff;
+  --form-text-color: #fff;
+  --footer-text-color: #bbb;
+  --info-background-color: #222;
+}
+body {
+  background: var(--background-gradient);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  margin-top: 85px;
+  
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 60px;
+  
+}
+
+a,
+p, 
+h1 {
+  color: var(--text-color);
+}
+h1{
+  font-family: Lato;
+}
+.hover{
+  cursor: pointer;
+}

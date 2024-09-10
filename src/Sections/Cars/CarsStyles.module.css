@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  color: var(--text-color);
+  z-index: 1;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.wallpaper {
+  width: 100%;
+  p {
+    text-align: center;
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Roboto Mono";
+    text-transform: uppercase;
+    animation: slide 1s;
+  }
+
+  img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}

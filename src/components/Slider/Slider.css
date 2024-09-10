@@ -1,0 +1,83 @@
+/* Center the swiper and give it a responsive width */
+.swiper {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto; /* Center the slider horizontally */
+    position: relative; /* Ensure buttons are positioned relative to this container */
+    border-radius: 10px;
+    padding-bottom: 30px;
+  }
+  
+  /* Style the swiper slides */
+  .swiper-slide {
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Full height of the swiper */
+    position: relative; /* Make sure the pagination and navigation buttons are positioned relative to this */
+  }
+  
+  /* Ensure images are centered and maintain their aspect ratio */
+  .swiper-slide img {
+    width: 98%;
+    max-width: 1600px;
+    max-height: 100%; /* Images won't be larger than the slide height */
+    object-fit: contain; /* Ensures the image scales nicely without distortion */
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Navigation buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #5372F0; /* Adjust button color */
+    width: 44px;
+    height: 44px;
+    top: 50%;
+    position: absolute; /* Make buttons absolutely positioned */
+    z-index: 100; /* Make sure they appear on top */
+
+  }
+  
+  /* Position the next button 15px to the right of the slider */
+  .swiper-button-next {
+    right: 35px;
+  }
+  
+  /* Position the prev button 15px to the left of the slider */
+  .swiper-button-prev {
+    left: 35px;
+  }
+  
+  /* Pagination */
+  .swiper-pagination {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%; /* Full width to center bullets */
+  }
+  
+  .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background-color: #5372F0; /* Adjust pagination bullet color */
+    opacity: 0.5;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+  
+  @media (max-width: 1000px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
+
+  @media(min-width: 1000px){
+
+    .swiper-slide img{
+      width: 85%;
+    }
+  }
