@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  font-family: Lato;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text-color);
   text-align: center;
   align-items: center;
