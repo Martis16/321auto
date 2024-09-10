@@ -110,13 +110,16 @@
 }
 
 .button button {
-  width: 40px;
+  width: 45px;
   height: 35px;
   margin: 0 5px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
+  img{
+    width: 100%;
+  }
 }
 
 
