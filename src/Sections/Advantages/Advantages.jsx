@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import styles from "./AdvantagesStyles.module.css";
-import CarVertical from "../../assets/share.png";
-import Insurance from "../../assets/640-car-purchase-agreement-providing-financial-services-and-car-insurance-financial-car-loans-lease-agreement-or-lease-concept-customers-sign-insurance-documents-or-car-rental-forms.jpg";
+//import CarVertical from "../../assets/share.png";
+import CarVertical from "../../assets/pexels-pixabay-35967.jpg";
+import Insurance from "../../assets/pexels-rdne-7414284.jpg";
 import Inspection from "../../assets/pexels-artempodrez-8986177.jpg";
 import Downpayment from "../../assets/pexels-mikhail-nilov-6963017.jpg";
 import TA from "../../assets/pexels-gustavo-fring-6870332.jpg";
